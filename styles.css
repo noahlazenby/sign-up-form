@@ -61,3 +61,14 @@ table {
     flex-direction: column;
 }
 
+.top {
+    min-height: 35%;
+}
+
+.middle {
+    min-height: 30%;
+}
+
+.bottom {
+    min-height: 35%;
+}
