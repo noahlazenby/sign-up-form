@@ -65,16 +65,21 @@ table {
 .top {
     min-height: 35%;
     background-color: #EAECEE;
+    padding-left: 2rem;
+    padding-top: 5rem;
 }
 
 .middle {
     min-height: 30%;
     box-shadow: 10px 5px 5px black;
+    padding-left: 2rem;
 }
 
 .bottom {
     min-height: 35%;
     background-color: #EAECEE;
+    padding-left: 2rem;
+    padding-top: 2rem;
 }
 
 .banner {
@@ -107,4 +112,19 @@ table {
 
 input, label {
     display: block;
+}
+
+input {
+    border-color: #E5E7EB;
+    border-radius: 0.2rem;
+}
+
+em {
+    font-style: italic;
+}
+
+form {
+    display: grid;
+    grid-template-columns: 20rem 20rem;
+    gap: 2rem;
 }
